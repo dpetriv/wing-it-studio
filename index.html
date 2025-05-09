@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Wing IT Studio - Web Solutions</title>
+  <style>
+    /* Base reset and typography */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      background: radial-gradient(ellipse at center, #f5f7fa 0%, #cbd6e2 100%);
+      background-attachment: fixed;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      background: rgba(44, 62, 80, 0.95);
+      color: #f5f5f5;
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin-left: 20px;
+    }
+    nav ul li a {
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #F39C12;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: rgba(44, 62, 80, 0.85);
+      border-radius: 8px;
+      margin: 60px auto;
+      max-width: 900px;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #F39C12;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin: 0 auto 30px;
+      max-width: 700px;
+      line-height: 1.5;
+      color: #f0f0f0;
+    }
+    .btn {
+      background: #F39C12;
+      color: #17202A;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #E67E22;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .services,
+    .about,
+    .location,
+    .contact {
+      background: rgba(44, 62, 80, 0.75);
+      border-radius: 8px;
+      margin: 40px auto;
+      color: #f0f0f0;
+      padding: 40px 20px;
+      max-width: 900px;
+    }
+    .services h2,
+    .about h2,
+    .location h2,
+    .contact h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #F39C12;
+    }
+    .service-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service-item {
+      flex: 1 1 250px;
+      background: #233140;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .service-item h3 {
+      color: #F39C12;
+      margin-bottom: 10px;
+    }
+    .about p,
+    .location p,
+    .contact p.info {
+      max-width: 700px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+    }
+    .contact .info a {
+      color: #F39C12;
+      font-style: italic;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contact input,
+    .contact textarea {
+      font-family: Arial, sans-serif;
+      padding: 12px;
+      border: 1px solid #3A3F51;
+      border-radius: 4px;
+      background: #2C3E50;
+      color: #f5f5f5;
+    }
+    .contact input::placeholder,
+    .contact textarea::placeholder {
+      color: #AEB6BF;
+    }
+    .contact button {
+      align-self: center;
+      background: #F39C12;
+      color: #17202A;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .contact button:hover {
+      background: #E67E22;
+    }
+    footer {
+      background: rgba(44, 62, 80, 0.85);
+      color: #f5f5f5;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Wing IT Studio</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#location">Location</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Wing It Together</h1>
+      <p>At Wing IT Studio, we blend creativity and technology to bring your digital visions to life. Whether you're starting from scratch or elevating your existing platform, <strong>Wing It Together</strong> with us and watch your ideas soar.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>From concept to deployment, our expert team provides end-to-end solutions designed to scale with your business. <em>Wing It Together</em> as we deliver:</p>
+      <div class="service-items">
+        <div class="service-item">
+          <h3>Web Design</h3>
+          <p>Crafting intuitive and responsive interfaces that captivate users.</p>
+        </div>
+        <div class="service-item">
+          <h3>Web Development</h3>
+          <p>Building robust, scalable applications with clean, maintainable code.</p>
+        </div>
+        <div class="service-item">
+          <h3>Maintenance</h3>
+          <p>Ensuring your platform stays secure, up-to-date, and performant.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Wing IT Studio is a collective of passionate professionals committed to turning your aspirations into reality. <strong>Your Vision, Our Wings</strong>—we partner with you at every step, delivering tailored strategies and innovative solutions that exceed expectations.</p>
+    </div>
+  </section>
+
+  <section id="location" class="location">
+    <div class="container">
+      <h2>Our Location</h2>
+      <p>Based in the historic city of Lviv, Ukraine, Wing IT Studio is at the crossroads of rich culture and cutting-edge technology—a perfect backdrop for innovation.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="info">Have a project in mind? <strong>Take Flight with Wing IT</strong> by reaching out today—our wings are ready to carry your issues forward.</p>
+      <p class="info">Or email us directly at <a href="mailto:info@wing-it.studio">info@wing-it.studio</a>.</p>
+      <!-- Replace 'YOUR_FORMSPREE_ID' with your Formspree form ID -->
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Wing IT Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('year').textContent = new Date().getFullYear();
+      var form = document.getElementById('contact-form');
+      form.addEventListener('submit', async function(e) {
+        e.preventDefault();
+        var formData = new FormData(form);
+        try {
+          var response = await fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', { method: 'POST', body: formData, headers: { 'Accept': 'application/json' } });
+          if (response.ok) { alert('Thank you for contacting Wing IT Studio! We will get back to you soon.'); form.reset(); } else { alert('Oops! There was a problem submitting your form.'); }
+        } catch (error) { alert('Oops! There was a problem submitting your form.'); }
+      });
+    });
+  </script>
+</body>
+</html>
